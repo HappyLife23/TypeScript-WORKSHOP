@@ -1,0 +1,3 @@
+-- När du inte specificerar en typ och TypeScript inte kan härleda den från sammanhanget kommer kompilatorn vanligtvis att använda 'any' som standard.
+
+-- 
