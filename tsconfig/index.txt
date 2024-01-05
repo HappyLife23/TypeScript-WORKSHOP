@@ -1,0 +1,15 @@
+narrowing: 
+-- förbättring typesäkerhet
+-- 
+-- 
+
+Type Guards: 
+typeof
+instanceof
+custom typeguards
+type predicts: 'as'
+type assertions
+
+
+-- använda unknown före any (unkown kontrollerar innan och är hårdare än any)
+

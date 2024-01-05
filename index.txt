@@ -1,3 +1,19 @@
--- När du inte specificerar en typ och TypeScript inte kan härleda den från sammanhanget kommer kompilatorn vanligtvis att använda 'any' som standard.
+tsc --init => skapar json-filensc 
+tsc 
+tsc -w => skapar js-fil till varje ts-fil
+target:
+module:
+strict:
 
+-- om du ger inte ett värde til ett variabel så får den värdet av 'any'
+-- undvik 'any' om du vet vad du ka ha för värde
 -- 
+
+
+// --- för att kommentera i VSC : shift window /
+
+*--- Regler för att skapa en välfungerande TypeScript grund ---*
+-- tsc --init
+-- outDir /.js => skapar alla dina js-filer i en js-mapp
+-- rootDir /.ts => skapar alla dina ts-filer i en ts-mapp
+-- noEmitOnError": true, 
