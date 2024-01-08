@@ -13,3 +13,4 @@ type assertions
 
 -- använda unknown före any (unkown kontrollerar innan och är hårdare än any)
 
+
